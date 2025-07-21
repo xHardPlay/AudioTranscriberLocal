@@ -1,0 +1,9 @@
+2025-07-21 16:20:43,703 INFO: FFmpeg path: E:\Proyectos\TranscribeWithFFMPEG\Backend\venv\Lib\site-packages\static_ffmpeg\bin\win32\ffmpeg.exe
+2025-07-21 16:22:29,351 INFO: Petición recibida con 1 archivos.
+2025-07-21 16:22:29,429 INFO: Convertido C:\Users\carlo\AppData\Local\Temp\tmp0lod6j33\WhatsApp Audio 2025-07-21 at 12.51.19_868fda3d.waptt.opus a C:\Users\carlo\AppData\Local\Temp\tmp0lod6j33\WhatsApp Audio 2025-07-21 at 12.51.19_868fda3d.waptt.wav
+2025-07-21 16:22:35,462 INFO: Transcripción exitosa: decime cuál Cuál de estos tres son boludo pues está ser viejos Aquí vamos si querés Pero fuiste para saber lo puedes hablarle
+2025-07-21 16:22:35,463 INFO: Resultados: {'WhatsApp Audio 2025-07-21 at 12.51.19_868fda3d.waptt.opus': 'decime cuál Cuál de estos tres son boludo pues está ser viejos Aquí vamos si querés Pero fuiste para saber lo puedes hablarle'}
+2025-07-21 16:24:23,415 INFO: Petición recibida con 1 archivos.
+2025-07-21 16:24:23,470 INFO: Convertido C:\Users\carlo\AppData\Local\Temp\tmp_d1y6qfo\WhatsApp Audio 2025-07-21 at 12.51.19_868fda3d.waptt.opus a C:\Users\carlo\AppData\Local\Temp\tmp_d1y6qfo\WhatsApp Audio 2025-07-21 at 12.51.19_868fda3d.waptt.wav
+2025-07-21 16:24:29,000 INFO: Transcripción exitosa: decime cuál Cuál de estos tres son boludo pues está ser viejos Aquí vamos si querés Pero fuiste para saber lo puedes hablarle
+2025-07-21 16:24:29,001 INFO: Resultados: {'WhatsApp Audio 2025-07-21 at 12.51.19_868fda3d.waptt.opus': 'decime cuál Cuál de estos tres son boludo pues está ser viejos Aquí vamos si querés Pero fuiste para saber lo puedes hablarle'}

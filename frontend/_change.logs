@@ -1,3 +1,8 @@
 # frontend/_change.logs
 
 - 2025-07-21: Estructura inicial de frontend creada. SPA React lista para desarrollo de UI de carga múltiple. 
+[2024-07-21] Mejoras visuales: responsividad avanzada, tarjetas para resultados, banners de error, badges de error, animaciones de fade-in, separadores visuales, mejoras mobile/tablet. 
+[2024-07-21] Mejora visual: Nueva paleta de colores moderna aplicada con variables CSS, actualización de estilos en App.css y index.css para un look más profesional y limpio. Mejoras en botones, dropzone, contenedores y detalles visuales. 
+[2024-07-21] Añadido spinner de carga visual y botón para copiar transcripciones al portapapeles con feedback visual. 
+[2024-07-21] Rediseño premium: fondo oscuro degradado, glassmorphism en cards y contenedores, acentos dorados y azul eléctrico, tipografía premium (Poppins/Inter), sombras profundas, animaciones suaves y microinteracciones elegantes. 
+[2024-07-21] Pulido premium: glassmorphism más marcado, sombras dinámicas, gradientes animados, glow en botones, divisores translúcidos, animaciones suaves de entrada/salida, feedback visual en dropzone, ripple en botones, tilt en cards, focus ring animado, highlight en card copiada, bounce en spinner, scale y glow en botón de subir, slide y fade en listas y botones. 

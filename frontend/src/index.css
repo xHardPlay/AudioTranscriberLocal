@@ -1,12 +1,20 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  --color-bg: #101214;
+  --color-bg-gradient: linear-gradient(135deg, #181a1b 0%, #101214 100%);
+  --color-card-glass: rgba(30, 32, 34, 0.85);
+  --color-card-border: rgba(80,255,60,0.18);
+  --color-primary: #39ff14;
+  --color-primary-light: #6fff47;
+  --color-secondary: #232323;
+  --color-accent: #39ff14;
+  --color-text: #f5f6fa;
+  --color-text-light: #fff;
+  --color-error: #e63946;
+  --color-divider: rgba(80,255,60,0.10);
+  --shadow-deep: 0 8px 32px 0 rgba(57,255,20,0.13);
+  font-family: 'Inter', 'Poppins', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg-gradient);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,15 +32,19 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background: var(--color-bg-gradient);
+  color: var(--color-text);
+  font-family: 'Inter', 'Poppins', system-ui, sans-serif;
+  display: flex;
+  place-items: center;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h1, h2, h3, h4 {
+  font-family: 'Poppins', 'Inter', system-ui, sans-serif;
+  font-weight: 900;
+  letter-spacing: -1px;
 }
 
 button {
@@ -54,15 +66,30 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+hr, .divider {
+  border: none;
+  border-top: 1.5px solid var(--color-divider);
+  margin: 24px 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-light);
+  border-radius: 8px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: var(--color-text);
+    background-color: var(--color-bg);
   }
   a:hover {
-    color: #747bff;
+    color: var(--color-primary-light);
   }
   button {
-    background-color: #f9f9f9;
+    background-color: var(--color-primary-light);
   }
 }
